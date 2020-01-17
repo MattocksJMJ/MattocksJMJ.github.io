@@ -2,20 +2,39 @@
     <head>
         <title>Jamie Mattocks</title>
         <style>
-            a {
-                color: 'black';
-                text-decoration: none;
+            a { 
+                color: black;
+                white-space: nowrap;
+                }
+            body{
+                display: grid;
+                align-content: center;
+                justify-content: center;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
             }
-            a:hover {
-                transform: scale(1.05);
-                transition: transform .1s linear;
-            }
-        </style>    
+        </style>   
     </head> 
     <body>
-        <center>
-        <h1><a href='https://mattocksjmj.github.io/Stats-for-Spotify/'>Stats for Spotify</a></h1> 
-        <h2><a href='https://github.com/MattocksJMJ/Stats-for-Spotify'>Code on Github</a></h2>
-        </center>
+        <h1><a id='z' href='https://mattocksjmj.github.io/Stats-for-Spotify/'>Stats for Spotify</a>
+        </h1> 
+        <h2><a id='zz' href='https://github.com/MattocksJMJ/Stats-for-Spotify'>Code on Github</a></h2>
     </body>
+    <!-- <script>
+        let x = 0;
+            let list = ['Georgia', 'Palatino Linotype', 'Times New Roman', 'Arial', 'Comic Sans MS', 'Tahoma', 'Courier New'];
+            window.setInterval(function(){
+                if (x > 6) {
+                    x = 0;
+                }
+                fontChange(x, list);
+                x++;
+            }, 500);
+            function fontChange(x, list) {
+                const text1 = document.getElementById('z');
+                const text2 = document.getElementById('zz');
+                text1.style.fontFamily = list[x];
+                text2.style.fontFamily = list[x]
+            }
+    </script>  -->
 </html>
